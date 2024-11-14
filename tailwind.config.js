@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.html"],  
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
